@@ -93,7 +93,6 @@
 
         mediaPlayer.ContentTitle.prototype.createEl = function () {
             var el = Component.prototype.createEl.call(this, 'div', { className: contentTitleCssClass });
-            console.log(el);
 
             el.style.opacity = opacity;
             el.onload = function() { 
@@ -104,6 +103,7 @@
             var div = videojs.createEl('div', {});
             div.style.cssText='height: 20px; width: 20px;background-color:'+highlightColor;
             div.className = "rotating";
+            div.id = "beacon";
             var stuff = "";
             div.innerHTML = stuff;
             div.onload = function() { 
