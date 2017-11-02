@@ -102,8 +102,7 @@
             var span = videojs.createEl('span', {});
             var div = videojs.createEl('div', {});
             div.style.cssText='height: 20px; width: 20px;background-color:'+highlightColor;
-            div.className = "rotating";
-            div.id = "beacon";
+            div.className = "indicator";
             var stuff = "";
             div.innerHTML = stuff;
             div.onload = function() { 

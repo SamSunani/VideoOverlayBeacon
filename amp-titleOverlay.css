@@ -48,8 +48,8 @@
 */
 
 
-@-webkit-keyframes rotating /* Safari and Chrome */ {
-  from {
+/* @-webkit-keyframes rotating /* Safari and Chrome */ {
+  /* from {
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -82,4 +82,4 @@
   -ms-animation: rotating 2s linear infinite;
   -o-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
-}
+} */ */
