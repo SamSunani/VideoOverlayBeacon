@@ -9,7 +9,6 @@
             opacity = !!options && !!options.opacity ? options.opacity : 1,
             horizontalPosition = !!options && !!options.horizontalPosition ? options.horizontalPosition : 'left',
             verticalPosition = !!options && !!options.verticalPosition ? options.verticalPosition : 'top',
-            highlightColor = !!options && !!options.highlightColor ? options.highlightColor: 'white',
             contentTitleCssClass = 'amp-title-overlay';
 
         var Component = mediaPlayer.getComponent('Component');
@@ -101,10 +100,8 @@
             
             var span = videojs.createEl('span', {});
             var div = videojs.createEl('div', {});
-            div.style.cssText='height: 20px; width: 20px;background-color:'+highlightColor;
+            div.style.cssText='height: 50px; width: 50px;';
             div.className = "indicator";
-            var stuff = "";
-            div.innerHTML = stuff;
             div.onload = function() { 
                 updateContentTitle(); 
             };
