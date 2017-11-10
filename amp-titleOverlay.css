@@ -16,7 +16,7 @@
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-.amp-default-skin .amp-title-overlay { /* change ".amp-default-skin"  to .amp-flush-skin if you want to use the plugin with the flush skin*/
+.amp-default-skin .amp-video-overlay-tool{ /* change ".amp-default-skin"  to .amp-flush-skin if you want to use the plugin with the flush skin*/
     position: absolute;
     overflow: hidden;
     z-index: 5;
